@@ -88,6 +88,7 @@
 		<div class="button" id="button">Random</div>
 	</div>
 	<div id="monitor" style="color" class="monitor"></div>
+
 	<script>
 	        c.oninput = function(){
 	                console.log("c.value");
@@ -107,14 +108,25 @@
 	        	"저메추: 감자탕",
 	        	"좋아하는 노래 듣기",
 	        	"마음울적한날엔<br>거리를걸어보고",
-	        	"향기로운칵테일에<br>취해도보고,"
+	        	"향기로운칵테일에<br>취해도보고",
+	        	"생일축하합니다~",
+	        	"나의 멋진 스웨터",
+	        	"샤오린의 밀크티와 크림브륄레",
+	        	"킹수제만두의 마파두부덮밥",
+	        	"커리는 룸비니 레스토랑",
+	        	"시간 있어?<br>아껴써",
+	        	"오늘의 아이템: 크런키 모나카",
+	        	"잘자요굿나잇<br>그럼난댄싱댄싱댄싱인더문라잇",
+	        	"콜드드립 아이스라떼",
+	        	"귀여운 편지지에 편지쓰기",
+	        	"새로운 취미: 뜨개질",
 	        ]
 
 	        button.onclick = function() {
 	        	const randomIndex = Math.floor(Math.random() * fortunes.length);
 	        	monitor.innerHTML = fortunes[randomIndex];
 	    }
-	       
+
 	</script>
 </body>
 </html>
